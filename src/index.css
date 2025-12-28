@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('/assets/fonts/ClashDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme inline {
+  --font-clash: 'ClashDisplay-Regular', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D0B0C;
+  font-family: var(--font-clash);
+  color: #FFFFFF;
+  /* position: relative;
+  z-index: -9999; */
+}
