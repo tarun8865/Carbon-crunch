@@ -7,13 +7,13 @@ const Header = () => {
                 className='size-6'
             />
             <nav className='flex items-center gap-6'>
-                <a to='/about' className='text-[16px] cursor-pointer'>
+                <a href='/about' className='text-[16px] cursor-pointer'>
                     About Us
                 </a>
-                <a to='/' className='text-[16px]'>
+                <a href='/' className='text-[16px]'>
                     Store
                 </a>
-                <a to='/' className='text-[16px] cursor-pointer'>
+                <a href='/' className='text-[16px] cursor-pointer'>
                     Games
                 </a>
                 <button className='flex items-center hover:opacity-80 justify-center rounded bg-white text-black font-semibold h-12 px-6 cursor-pointer'>
